@@ -29,7 +29,7 @@
 		1B7EC9AA27006C91007111C8 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		1B7EC9B12700C50C007111C8 /* HeaderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionViewCell.swift; sourceTree = "<group>"; };
 		1B7EC9B22700C50C007111C8 /* HeaderCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCollectionViewCell.xib; sourceTree = "<group>"; };
-		1BCBBC0E26FDBADB00153CCE /* Test task for Sequenia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test task for Sequenia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BCBBC0E26FDBADB00153CCE /* MiniKinopoisk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniKinopoisk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCBBC1126FDBADB00153CCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BCBBC1326FDBADB00153CCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1BCBBC1526FDBADB00153CCE /* AllFilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFilmsViewController.swift; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 		1BCBBC0526FDBADB00153CCE = {
 			isa = PBXGroup;
 			children = (
-				1BCBBC1026FDBADB00153CCE /* Test task for Sequenia */,
+				1BCBBC1026FDBADB00153CCE /* MiniKinopoisk */,
 				1BCBBC0F26FDBADB00153CCE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,12 +96,12 @@
 		1BCBBC0F26FDBADB00153CCE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1BCBBC0E26FDBADB00153CCE /* Test task for Sequenia.app */,
+				1BCBBC0E26FDBADB00153CCE /* MiniKinopoisk.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1BCBBC1026FDBADB00153CCE /* Test task for Sequenia */ = {
+		1BCBBC1026FDBADB00153CCE /* MiniKinopoisk */ = {
 			isa = PBXGroup;
 			children = (
 				1BCBBC1126FDBADB00153CCE /* AppDelegate.swift */,
@@ -114,15 +114,15 @@
 				1BCBBC1C26FDBADC00153CCE /* LaunchScreen.storyboard */,
 				1BCBBC1F26FDBADC00153CCE /* Info.plist */,
 			);
-			path = "Test task for Sequenia";
+			path = MiniKinopoisk;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1BCBBC0D26FDBADB00153CCE /* Test task for Sequenia */ = {
+		1BCBBC0D26FDBADB00153CCE /* MiniKinopoisk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BCBBC2226FDBADC00153CCE /* Build configuration list for PBXNativeTarget "Test task for Sequenia" */;
+			buildConfigurationList = 1BCBBC2226FDBADC00153CCE /* Build configuration list for PBXNativeTarget "MiniKinopoisk" */;
 			buildPhases = (
 				1BCBBC0A26FDBADB00153CCE /* Sources */,
 				1BCBBC0B26FDBADB00153CCE /* Frameworks */,
@@ -132,12 +132,12 @@
 			);
 			dependencies = (
 			);
-			name = "Test task for Sequenia";
+			name = MiniKinopoisk;
 			packageProductDependencies = (
 				1BCBBC2E26FE1F6E00153CCE /* Alamofire */,
 			);
 			productName = "Test task for Sequenia";
-			productReference = 1BCBBC0E26FDBADB00153CCE /* Test task for Sequenia.app */;
+			productReference = 1BCBBC0E26FDBADB00153CCE /* MiniKinopoisk.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -154,7 +154,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1BCBBC0926FDBADB00153CCE /* Build configuration list for PBXProject "Test task for Sequenia" */;
+			buildConfigurationList = 1BCBBC0926FDBADB00153CCE /* Build configuration list for PBXProject "MiniKinopoisk" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -170,7 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1BCBBC0D26FDBADB00153CCE /* Test task for Sequenia */,
+				1BCBBC0D26FDBADB00153CCE /* MiniKinopoisk */,
 			);
 		};
 /* End PBXProject section */
@@ -351,14 +351,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YX6DWV484Z;
-				INFOPLIST_FILE = "Test task for Sequenia/Info.plist";
+				INFOPLIST_FILE = MiniKinopoisk/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "EvgenyTarakin.Test-task-for-Sequenia";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EvgenyTarakin.MiniKinopoisk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -371,14 +373,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YX6DWV484Z;
-				INFOPLIST_FILE = "Test task for Sequenia/Info.plist";
+				INFOPLIST_FILE = MiniKinopoisk/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "EvgenyTarakin.Test-task-for-Sequenia";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EvgenyTarakin.MiniKinopoisk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -388,7 +392,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BCBBC0926FDBADB00153CCE /* Build configuration list for PBXProject "Test task for Sequenia" */ = {
+		1BCBBC0926FDBADB00153CCE /* Build configuration list for PBXProject "MiniKinopoisk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BCBBC2026FDBADC00153CCE /* Debug */,
@@ -397,7 +401,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BCBBC2226FDBADC00153CCE /* Build configuration list for PBXNativeTarget "Test task for Sequenia" */ = {
+		1BCBBC2226FDBADC00153CCE /* Build configuration list for PBXNativeTarget "MiniKinopoisk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BCBBC2326FDBADC00153CCE /* Debug */,

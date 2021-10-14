@@ -1,6 +1,6 @@
 //
 //  NetworkService.swift
-//  Test task for Sequenia
+//  MiniKinopoisk
 //
 //  Created by Евгений Таракин on 26.09.2021.
 //

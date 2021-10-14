@@ -1,6 +1,6 @@
 //
-//  ViewController.swift
-//  Test task for Sequenia
+//  AllFilmsViewController.swift
+//  MiniKinopoisk
 //
 //  Created by Евгений Таракин on 24.09.2021.
 //
@@ -35,8 +35,9 @@ class AllFilmsViewController: UIViewController {
         filmsCollectionView?.backgroundColor = .clear
         filmsCollectionView?.delegate = self
         filmsCollectionView?.dataSource = self
-        filmsCollectionView?.register(UINib(nibName: "FilmCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "FilmCollectionViewCell")
         filmsCollectionView?.register(UINib(nibName: "HeaderCollectionViewCell", bundle: nil), forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "HeaderCollectionViewCell")
+        filmsCollectionView?.register(UINib(nibName: "FilmCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "FilmCollectionViewCell")
+        
         
         loadFilms()
     }

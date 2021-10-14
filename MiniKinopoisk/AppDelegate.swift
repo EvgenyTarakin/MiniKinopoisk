@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Test task for Sequenia
+//  MiniKinopoisk
 //
 //  Created by Евгений Таракин on 24.09.2021.
 //
